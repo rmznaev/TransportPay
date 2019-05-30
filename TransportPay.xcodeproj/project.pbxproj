@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		662D6BD26FFA82D6344C4246 /* Pods_TransportPay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D780E475E083D0370EB6D68 /* Pods_TransportPay.framework */; };
+		C43086AE2292AA3D00F383B7 /* iOSDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C43086AD2292AA3D00F383B7 /* iOSDropDown.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		C43086B0229482E800F383B7 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43086AF229482E800F383B7 /* BaseTabBarController.swift */; };
 		C45847BB22904E8000516A43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45847BA22904E8000516A43 /* AppDelegate.swift */; };
-		C45847BD22904E8000516A43 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45847BC22904E8000516A43 /* FirstViewController.swift */; };
-		C45847BF22904E8000516A43 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45847BE22904E8000516A43 /* SecondViewController.swift */; };
+		C45847BD22904E8000516A43 /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45847BC22904E8000516A43 /* QRScannerViewController.swift */; };
+		C45847BF22904E8000516A43 /* TicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45847BE22904E8000516A43 /* TicketViewController.swift */; };
 		C45847C222904E8000516A43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45847C022904E8000516A43 /* Main.storyboard */; };
 		C45847C422904E8200516A43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45847C322904E8200516A43 /* Assets.xcassets */; };
 		C45847C722904E8200516A43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45847C522904E8200516A43 /* LaunchScreen.storyboard */; };
+		C45847D02290773300516A43 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45847CF2290773300516A43 /* ProfileViewController.swift */; };
+		C45847D2229078A500516A43 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45847D1229078A500516A43 /* LoginViewController.swift */; };
+		C4CD77DC22A0744900EA5DCC /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CD77DB22A0744900EA5DCC /* QRScannerView.swift */; };
+		C4FD1D16229DD86B004C722A /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FD1D15229DD86B004C722A /* CustomTableViewCell.swift */; };
+		C4FD1D18229DE027004C722A /* TicketDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FD1D17229DE027004C722A /* TicketDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3CCF7062DDEAE843807516C4 /* Pods-TransportPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransportPay.debug.xcconfig"; path = "Target Support Files/Pods-TransportPay/Pods-TransportPay.debug.xcconfig"; sourceTree = "<group>"; };
+		4D780E475E083D0370EB6D68 /* Pods_TransportPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TransportPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C43086AD2292AA3D00F383B7 /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C43086AF229482E800F383B7 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
 		C45847B722904E8000516A43 /* TransportPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransportPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45847BA22904E8000516A43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C45847BC22904E8000516A43 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		C45847BE22904E8000516A43 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C45847BC22904E8000516A43 /* QRScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
+		C45847BE22904E8000516A43 /* TicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketViewController.swift; sourceTree = "<group>"; };
 		C45847C122904E8000516A43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C45847C322904E8200516A43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C45847C622904E8200516A43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C45847C822904E8200516A43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C45847CF2290773300516A43 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C45847D1229078A500516A43 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C4CD77DB22A0744900EA5DCC /* QRScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
+		C4FD1D15229DD86B004C722A /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		C4FD1D17229DE027004C722A /* TicketDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDetails.swift; sourceTree = "<group>"; };
+		EA24281DD6EE5CE5B0753F0F /* Pods-TransportPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransportPay.release.xcconfig"; path = "Target Support Files/Pods-TransportPay/Pods-TransportPay.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C43086AE2292AA3D00F383B7 /* iOSDropDown.framework in Frameworks */,
+				662D6BD26FFA82D6344C4246 /* Pods_TransportPay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F7ADBC9DECC49EA3A674682 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CCF7062DDEAE843807516C4 /* Pods-TransportPay.debug.xcconfig */,
+				EA24281DD6EE5CE5B0753F0F /* Pods-TransportPay.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		84C78F968B71345780B5FB27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C43086AD2292AA3D00F383B7 /* iOSDropDown.framework */,
+				4D780E475E083D0370EB6D68 /* Pods_TransportPay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C45847AE22904E8000516A43 = {
 			isa = PBXGroup;
 			children = (
 				C45847B922904E8000516A43 /* TransportPay */,
 				C45847B822904E8000516A43 /* Products */,
+				0F7ADBC9DECC49EA3A674682 /* Pods */,
+				84C78F968B71345780B5FB27 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +97,52 @@
 			isa = PBXGroup;
 			children = (
 				C45847BA22904E8000516A43 /* AppDelegate.swift */,
-				C45847BC22904E8000516A43 /* FirstViewController.swift */,
-				C45847BE22904E8000516A43 /* SecondViewController.swift */,
-				C45847C022904E8000516A43 /* Main.storyboard */,
+				C4CD77DD22A0758800EA5DCC /* Model */,
+				C4CD77E222A076E400EA5DCC /* Views */,
+				C4CD77E022A075CA00EA5DCC /* Controllers */,
 				C45847C322904E8200516A43 /* Assets.xcassets */,
 				C45847C522904E8200516A43 /* LaunchScreen.storyboard */,
 				C45847C822904E8200516A43 /* Info.plist */,
 			);
 			path = TransportPay;
+			sourceTree = "<group>";
+		};
+		C4CD77DD22A0758800EA5DCC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4FD1D17229DE027004C722A /* TicketDetails.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4CD77E022A075CA00EA5DCC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C45847D1229078A500516A43 /* LoginViewController.swift */,
+				C45847BC22904E8000516A43 /* QRScannerViewController.swift */,
+				C45847BE22904E8000516A43 /* TicketViewController.swift */,
+				C45847CF2290773300516A43 /* ProfileViewController.swift */,
+				C43086AF229482E800F383B7 /* BaseTabBarController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C4CD77E122A0766500EA5DCC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C45847C022904E8000516A43 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C4CD77E222A076E400EA5DCC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C4CD77E122A0766500EA5DCC /* Storyboards */,
+				C4FD1D15229DD86B004C722A /* CustomTableViewCell.swift */,
+				C4CD77DB22A0744900EA5DCC /* QRScannerView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C45847CB22904E8200516A43 /* Build configuration list for PBXNativeTarget "TransportPay" */;
 			buildPhases = (
+				EA77F0AF3126E438B882DA8C /* [CP] Check Pods Manifest.lock */,
 				C45847B322904E8000516A43 /* Sources */,
 				C45847B422904E8000516A43 /* Frameworks */,
 				C45847B522904E8000516A43 /* Resources */,
+				F34E4E963F78C3390A026973 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +213,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		EA77F0AF3126E438B882DA8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TransportPay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F34E4E963F78C3390A026973 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TransportPay/Pods-TransportPay-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/iOSDropDown/iOSDropDown.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOSDropDown.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TransportPay/Pods-TransportPay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C45847B322904E8000516A43 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C45847BF22904E8000516A43 /* SecondViewController.swift in Sources */,
+				C4FD1D18229DE027004C722A /* TicketDetails.swift in Sources */,
+				C45847BF22904E8000516A43 /* TicketViewController.swift in Sources */,
 				C45847BB22904E8000516A43 /* AppDelegate.swift in Sources */,
-				C45847BD22904E8000516A43 /* FirstViewController.swift in Sources */,
+				C43086B0229482E800F383B7 /* BaseTabBarController.swift in Sources */,
+				C4CD77DC22A0744900EA5DCC /* QRScannerView.swift in Sources */,
+				C4FD1D16229DD86B004C722A /* CustomTableViewCell.swift in Sources */,
+				C45847D02290773300516A43 /* ProfileViewController.swift in Sources */,
+				C45847D2229078A500516A43 /* LoginViewController.swift in Sources */,
+				C45847BD22904E8000516A43 /* QRScannerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,11 +417,13 @@
 		};
 		C45847CC22904E8200516A43 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CCF7062DDEAE843807516C4 /* Pods-TransportPay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WKC2U8KBT4;
 				INFOPLIST_FILE = TransportPay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,11 +437,13 @@
 		};
 		C45847CD22904E8200516A43 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA24281DD6EE5CE5B0753F0F /* Pods-TransportPay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WKC2U8KBT4;
 				INFOPLIST_FILE = TransportPay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
